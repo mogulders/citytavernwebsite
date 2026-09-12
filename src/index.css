@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    color: #1a1a1a;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-orange-brand text-white font-display font-bold uppercase tracking-widest px-8 py-3 text-lg rounded-sm hover:brightness-110 transition-all duration-200;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent border-2 border-white text-white font-display font-bold uppercase tracking-widest px-8 py-3 text-lg rounded-sm hover:bg-white hover:text-blue-dark transition-all duration-200;
+  }
+
+  .section-title {
+    @apply font-display font-black uppercase text-5xl tracking-wide;
+  }
+
+  .menu-card {
+    @apply bg-white border border-gray-100 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200;
+  }
+}
