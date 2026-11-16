@@ -70,7 +70,7 @@ export default function Footer() {
           <p className="font-body text-white/20 text-xs mt-2">
             Website by{' '}
             <a
-              href="https://www.neighboredllc.com"
+              href="https://neighboredllc.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-orange-brand transition-colors"
